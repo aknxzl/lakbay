@@ -32,7 +32,7 @@ if (!routeData) {
 } else {
   const { start, end, distanceKm, durationMin, coordinates } = routeData;
 
-  summaryEl.innerHTML = `<b>${start.name}</b> &rarr; <b>${end.name}</b><br>${distanceKm.toFixed(1)} km &middot; ${formatDuration(durationMin)}`;
+  summaryEl.innerHTML = `<b>${start.name}</b> &rarr; <b>${end.name}</b>`;
 
   // Static display map: reuses the route already fetched on the previous page
   // instead of calling OSRM again.
