@@ -26,3 +26,23 @@
   margin-top: 0;
   text-align: left;
 }
+
+#startimg {
+  width: 500px;
+  height: auto;
+}
+
+#destinationimg {
+  width: 500px;
+  height: auto;
+}
+
+#confirmimg {
+  width: 500px;
+  height: auto;
+}
+
+#optionsimg {
+  width: 500px;
+  height: auto;
+}
